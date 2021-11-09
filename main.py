@@ -1,15 +1,22 @@
 # Online Python compiler (interpreter) to run Python online.
 # Write Python 3 code in this online editor and run it.
 
-var_string = "Hello world"
-var_numerica = 123
-var_float = 123.3435
+"sumar 2 numeros"
 
-print(var_string)
-print(type(var_string))
+num_1 = 31
+num_2 = 43
+suma1 = num_1 + num_2
+print (suma1)
 
-print(var_numerica)
-print(type(var_numerica))
+"sumar 2 float"
+float_1 = 15.22
+float_2 = 10.28
+suma2 = float_1 + float_2
+print (suma2)
 
-print(var_float)
-print(type(var_float))
+"concatenar 2 string"
+
+nombre = "Daniel Alejandro"
+apellido = "Chaparro Zipa"
+suma_3 = nombre + " " + apellido
+print (suma_3)
