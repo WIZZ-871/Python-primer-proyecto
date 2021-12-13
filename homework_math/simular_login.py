@@ -5,7 +5,9 @@ azul= '\033[34m'
 magenta= '\033[35m'
 negro= '\033[30m'
 #DATOS REGISTRADOS PREVIAMENTE
-print(azul+"EL USUARIO Y CONTRASEÑA REGISTRADOS PREVIAMENTE SON:")
+print(azul+" ESTE PROGRAMA SIMULA EL LOGIN DE UNA PAGINA CON UN USUARIO Y CONTRASEÑA "
+      "DEFINIDOS PREVIAMENTE")
+print(azul+"EL USUARIO Y CONTRASEÑA SON:")
 print(rojo+"*******************************************")
 print(rojo+"*"+magenta+ "   usuario:danielchaparro@gmail.com      "+rojo+"*" )
 print(rojo+"*"+magenta+"   contraseña:1234abcde                 "+rojo+"*" )
