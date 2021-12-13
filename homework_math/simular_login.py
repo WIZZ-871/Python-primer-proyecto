@@ -8,7 +8,7 @@ negro= '\033[30m'
 print(azul+"EL USUARIO Y CONTRASEÑA REGISTRADOS PREVIAMENTE SON:")
 print(rojo+"*******************************************")
 print(rojo+"*"+magenta+ "   usuario:danielchaparro@gmail.com      "+rojo+"*" )
-print(rojo+"*"+magenta+"   contraseña: 1234abcde                 "+rojo+"*" )
+print(rojo+"*"+magenta+"   contraseña:1234abcde                 "+rojo+"*" )
 print("*******************************************")
 print(verde+"PARA REALIZAR EL LOGIN EN NUESTRA PAGINA DEBERA DIGITAR EL USUARIO"
       " Y CONTRASEÑA REGISTRADOS PREVIAMENTE")
@@ -26,6 +26,3 @@ while ingresar_contraseña!= contraseña:
               "por favor ingrese una contraseña correcta")
         ingresar_contraseña= str(input(rojo+"ingrese la contraseña:"))
 print(verde+"EL USUARIO Y CONTRASEÑA INGRESADOS SON CORRECTOS LOGIN COMPLETADO")
-
-
-
