@@ -25,19 +25,22 @@ def error_contraseña():
                  "por favor ingrese una contraseña correcta:")
 
 mensaje_bienvenida()
-usuario= str ("danielchaparro@gmail.com")
-contraseña= str("1234abcde")
+usuario_1= str ("danielchaparro@gmail.com")
+usuario_2= str ("daniel@gmail.com")
+contraseña_1= str("1234abcde")
+contraseña_2= str ("abcde")
+
 
 ingresar_usuario= str(input(negro+"ingrese el usuario:"))
 
-while usuario != ingresar_usuario:
+while usuario_1 or usuario_2 != ingresar_usuario:
     error_usuario()
     ingresar_usuario= str(input())
 print(verde+"el usuario ingresado es correcto por favor ingrese la contraseña:")
 
 ingresar_contraseña = str(input(negro+"ingrese la contraseña:"))
 
-while ingresar_contraseña!= contraseña:
+while ingresar_contraseña!= contraseña_1 or contraseña_2:
     error_contraseña()
     ingresar_contraseña= str(input())
 
